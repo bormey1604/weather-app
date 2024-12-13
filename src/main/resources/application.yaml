@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: weather-app
+
+weather:
+  url: http://api.openweathermap.org/data/2.5/weather?q={city}&appId={apiKey}&units=metric
+  api-key: ${API_KEY}
